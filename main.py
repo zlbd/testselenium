@@ -81,9 +81,64 @@ def main():
 
     print('----------------done!!------------------')
 
+tu = 9
+zhuan = 3
+shape = 4
+
+def paste(hunningtu):
+    return None
+
+
+class tu:
+    def paste(self, hunningtu):
+
+        return None
+
+class hunningtu(tu):
+    pass
+
+class ZhuanClass(tu):
+    def paste(self, tt):
+        super().paste(self. tt)
+        self.t = tu()
+        b = connect()
+        a = 3
+        b = 4
+        try:
+            t = a / b
+        except ZeroDivisionError as xxx:
+            print(xxx)
+            print(str(xxx))
+            print("xxxxxxxx-------------------------")
+            print(type(xxx))
+            print("--------")
+            print(dir(xxx))
+            t = 5
+            while True:
+                b = connect()
+                # do connect
+                if reconnect == True:
+                    break
+                else:
+                    t = t -1
+                    if (t < 1):
+                        break
+            pass
+        except KeyboardInterrupt as e2:
+            print("e2")
+        except Exception as eBase:
+            print(eBase)
+
+        self.shape = 3
+
+        return None
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as xxx:
+        print(xxx)
+        print(str(xxx))
     print('----------------done!------------------')
 
 # EOF
