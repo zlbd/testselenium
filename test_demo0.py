@@ -33,7 +33,7 @@ class TestDemo0():
         self.driver.get("https://cn.bing.com/")
         self.vars["root"] = self.driver.current_window_handle
         self.vars["window_handles"] = self.driver.window_handles
-        [object Object]
+        #[object Object]
         self.vars["win9038"] = self.wait_for_window(2000)
         self.driver.find_element(By.ID, "sb_form_q").click()
         self.driver.find_element(By.ID, "sb_form_q").send_keys("selenium")
@@ -56,8 +56,9 @@ class TestDome0_copy:
         assert 22 == 21
 
 def main():
-    #pytest.main(['./test_demo0.py::TestDemo0', '-v', '-s'])
-    pytest.main(['./test_demo0.py::TestDemo0', '-v', '-s'])
+    # pytest.main(['./test_demo0.py', '-v', '-s'])
+    #pytest.main(['./test_demo0.py', '-v', '-s'])
+    pytest.main(['./test_demo0.py::TestDemo0'])
 
 if __name__ == '__main__':
     print("----------- main entry ------------- ")
